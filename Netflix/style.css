@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.container1 {
+  border: none;
+  height: 100vh;
+  width: 100%;
+
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(./Images/background.jpg);
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.logo,
+.text {
+  height: 15vh;
+  width: 30%;
+}
+.text .lang {
+  margin-left: 100px;
+}
+.text .signin {
+  margin-right: 70px;
+}
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo img {
+  height: 11vh;
+  width: 27vh;
+  padding-top: 1vh;
+}
+.text .lang select {
+  border: solid 2px rgb(109, 98, 98);
+  border-radius: 0.5vh;
+  height: 5vh;
+  width: 15vh;
+  color: white;
+  font-size: large;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  padding: 0px 10px;
+  background-color: transparent;
+}
+.text .lang select:hover {
+  border: solid 3px white;
+}
+.text .lang option {
+  color: black;
+}
+.text .signin button {
+  border: none;
+  border-radius: 0.5vh;
+  height: 5vh;
+  width: 10vh;
+  cursor: pointer;
+  background-color: rgb(229, 9, 20);
+}
+.text .signin button:hover {
+  background-color: rgb(185, 48, 55);
+}
+.text .signin button a {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.container2 {
+  text-align: center;
+  color: #d9cece;
+  margin-top: 20vh;
+}
+
+.container2 input {
+  padding-left: 10px;
+}
+.container2 h1 {
+  font-size: 7vh;
+  margin-bottom: 10px;
+}
+.container2 h3 {
+  font-size: 4vh;
+  margin-bottom: 10px;
+}
+.container2 h5 {
+  font-size: 3vh;
+  margin-bottom: 10px;
+}
+form {
+  margin-top: 30px;
+}
+input[type="email"] {
+  height: 7vh;
+  width: 25%;
+  border: 1px solid rgb(75, 71, 71);
+  border-radius: 1vh;
+  color: #ffffff;
+  background-color: transparent;
+}
+input[type="email"]:hover {
+  border: solid 1px white;
+}
+input[placeholder="Email address"] {
+  background-color: rgba(0, 0, 0, 0.723);
+  color: white;
+  padding-left: 10px;
+  font-size: 20px;
+}
+input[type="submit"] {
+  border: none;
+  border-radius: 1vh;
+  height: 7vh;
+  width: 12%;
+  font-size: large;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: rgb(229, 9, 20);
+}
+input[type="submit"]:hover {
+  background-color: red;
+}
+
+hr {
+  border: solid 5px #292729;
+}
+.container3 .box1,
+.box2,
+.box3,
+.box4 {
+  border: none;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+.container3 .box1 .text1,
+.text2,
+.text3,
+.text4 {
+  color: #ffffff;
+}
+.container3 h1 {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 7vh;
+}
+.container3 h3 {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 3vh;
+  font-weight: 500;
+}
+.container3 img {
+  height: 60vh;
+}
+
+.container4 {
+  border: none;
+  height: 130vh;
+  width: 100%;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  background-color: black;
+}
+
+.container4 h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 7vh;
+  color: white;
+}
+.container4 .box {
+  border: none;
+  height: 12vh;
+  width: 75%;
+  margin: 10px auto;
+  background-color: rgb(65, 64, 64);
+  cursor: pointer;
+}
+.container4 .box:hover {
+  background-color: grey;
+}
+.container4 .text1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 4vh;
+  height: 12vh;
+  color: #ffffff;
+}
+.container4 .text1 h3 {
+  font-size: 7vh;
+}
+
+.container5 p {
+  font-size: 3vh;
+  color: white;
+  text-align: center;
+  padding-top: 5vh;
+}
+.container5 .last {
+  text-align: center;
+}
+
+.container6 {
+  border: none;
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+}
+.container6 p {
+  color: rgb(171, 166, 166);
+  padding-left: 19.7vh;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+.container6 .phone a {
+  text-decoration: none;
+  color: #d9cece;
+}
+.container6 .links {
+  margin-left: 20vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 2vh;
+}
+
+.container6 .links a {
+  color: rgb(171, 166, 166);
+}
+.container6 .lang {
+  margin-right: 25vh;
+}
